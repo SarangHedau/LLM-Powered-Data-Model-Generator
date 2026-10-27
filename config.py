@@ -1,0 +1,10 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+
+UPLOAD_FOLDER = "uploads"
+
+OUTPUT_FOLDER = "outputs"
